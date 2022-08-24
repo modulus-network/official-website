@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Druk Wide Bold';
+  src: url(../fonts/Druk-Wide-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+.druk-font {
+  font-family: 'Druk Wide Bold';
+}
+
+.montserrat-font {
+  font-family: 'Montserrat';
+}

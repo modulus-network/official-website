@@ -1,0 +1,29 @@
+{
+  "name": "modulus-official-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind:watch": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch",
+    "format": "prettier --write **/**.{css,html,js}",
+    "serve": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modulus-network/official-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modulus-network/official-website/issues"
+  },
+  "homepage": "https://github.com/modulus-network/official-website#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
